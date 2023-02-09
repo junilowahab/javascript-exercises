@@ -4,13 +4,15 @@ const repeatString = function(string, num) {
         for(let i = 1; i < num; i++){
            string = a + string; 
         };
+    }else if(num < 0 ){
+        string = 'ERROR';
     }else{
         string = '';
     }
     return string;
 };
 
-repeatString('hey', 0);
+repeatString('hey', -1);
 
 // Do not edit below this line
 module.exports = repeatString;
