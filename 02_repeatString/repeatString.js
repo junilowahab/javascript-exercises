@@ -12,7 +12,5 @@ const repeatString = function(string, num) {
     return string;
 };
 
-repeatString('hey', -1);
-
 // Do not edit below this line
 module.exports = repeatString;
