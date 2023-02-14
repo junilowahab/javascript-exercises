@@ -1,8 +1,8 @@
 const removeFromArray = function(givenArray, givenValue) {
-    //get the index of the value in the array
+    //get the index of the value in the givenArray
     let selectedElementIndex = givenArray.indexOf(givenValue);
 
-    //delete/remove index from array
+    //delete/remove the index of the givenValue from the givenArray
     givenArray.splice(selectedElementIndex, 1);
 
     //return new array
